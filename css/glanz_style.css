@@ -6274,6 +6274,36 @@ header nav.active .gla_logo {
 	height: 84px;
 	color: #fff;
 }
+.gla_flower2_name_amz {
+	font:400 60px/60px marsha;
+	right: 100%;
+	margin-top: 5%;
+	transform:translateY(-50%);
+}
+
+.gla_subtitle_amz {
+	margin-top: -40px;
+	margin-bottom: 20px;
+}
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 /*Added by Amitto ends*/
 
 
